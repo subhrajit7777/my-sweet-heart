@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff0f6;
+  color: #3d3d3d;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.hero {
+  background: #ffdee9;
+  background: linear-gradient(to right, #ffdee9, #b5fffc);
+  color: #222;
+  opacity: 1;
+  transform: none;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffb6c1;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
